@@ -1,0 +1,16 @@
+{
+  "name": "reverse-engineered-api-gateway",
+  "version": "1.0.0",
+  "description": "Clean-room reverse-engineered resilient API gateway with zero dependencies, circuit breaker, token bucket rate limiting, and JWT validation in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "author": "Felipe Madison",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
